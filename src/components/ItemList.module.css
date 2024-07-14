@@ -1,0 +1,67 @@
+.container {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: var(--gray-500);
+  padding: 1rem;
+
+  border-radius: 8px;
+}
+
+.itemList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.itemList p {
+    color: var(--gray-100);
+}
+
+.iconList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconList button {
+  color: var(--gray-100);
+  background-color: transparent;
+  border: none;
+}
+
+.iconList button:hover {
+  cursor: pointer;
+  color: var(--danger);
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--blue);
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  margin-right: 10px;
+}
+
+input[type="checkbox"]:hover {
+  border: 1px solid var(--blue);
+  background-color: rgba(30, 111, 159, 0.2);
+}
+
+input[type="checkbox"]:checked{
+    background-color: var(--blue);
+}
+
+.clicked{
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.notClicked p {
+    color: var(--gray-100);
+  }

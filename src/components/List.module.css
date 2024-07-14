@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1.5rem;
+    padding-top: 4rem;
+
+    box-shadow: 0 -5px 2px -2px var(--gray-400)
+}
+
+.container img {
+    padding-bottom: 1rem;
+}
+
+.container p {
+    text-align: center;
+    font-weight: bold;
+    color: var(--gray-300);
+}
+
+.container span{
+    color: var(--gray-300);
+    font-weight: normal;
+}
